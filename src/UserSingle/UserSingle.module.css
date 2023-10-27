@@ -1,0 +1,20 @@
+.userSingle {
+	border: solid 1px #272727;
+	padding: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.userSingle:hover {
+	background-color: rgba(255, 0, 0, 0.533);
+	color: white;
+	border: solid 1px red;
+	cursor: pointer;
+}
+.userSingle .delete {
+	display: none;
+}
+.userSingle:hover .delete {
+	display: flex;
+}

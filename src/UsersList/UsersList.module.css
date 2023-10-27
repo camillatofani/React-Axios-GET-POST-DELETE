@@ -1,0 +1,14 @@
+.usersList {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 20px;
+}
+.error {
+	font-size: 10px;
+	color: red;
+}
+@media screen and (max-width:576px) {
+	.usersList {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
